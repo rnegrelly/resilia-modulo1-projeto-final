@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+h1{
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+    color: goldenrod;
+    text-shadow:black 1px 1px 2px;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;    
+    padding: 5px;
+    font-size: 18px;
+}
+
+main {
+
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;    
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+
+}
+
+a{
+    
+    /*border: red solid 0.5px;*/
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+
+    color: goldenrod;
+    text-shadow:black 1px 1px 2px;
+    transition-duration: 0.2s;
+}
+
+
+.container{
+    
+    /*border: 0.5px solid red;*/
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.intro{
+   
+    /*border: solid red 1px;*/    
+    
+    display: flex;
+    text-align: justify;
+
+    width: 70%;
+    height: 100%;    
+    padding: 70px;
+    margin-left:15% ;
+    
+
+  
+}
+
+.intro-background{
+
+    /*border: solid red 1px;*/
+
+    background-image: url(./lightning-png_78144.png);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+
+}
+
+
+.intro-conteudo {
+
+  
+    color: goldenrod;
+    text-shadow:black 1px 1px 2px;
+    font-size: 40px;
+    opacity: 100%;
+    padding: 50px;
+
+}
+
+.intro-sombra{
+
+    background-color: rgba(255, 255, 255, 0.903);
+    
+}
+
+.intro-conteudo p {
+
+    line-height: 110%;
+
+}
+
+.seletor {
+
+    display: inline-block;
+    background-color: rgb(233, 217, 192);
+    /*border: solid red 0.5px;*/
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.foto {
+    
+    /*border: solid 5px;*/
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.herc {
+    height: 650px;
+    border-radius: 10px;
+}
+.herm {
+
+    /*margin-left: -70px;
+    margin-right: -70px;*/
+    height: 650px;
+    width: 450px;
+    border-radius: 10px;
+}
+.med {
+    height: 650px;
+    border-radius: 10px;
+}
+
+.personagem {
+    /*border: solid red 0.5px;*/
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+}
